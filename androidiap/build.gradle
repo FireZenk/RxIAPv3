@@ -4,7 +4,7 @@ apply plugin: 'com.neenbedankt.android-apt'
 ext {
     PUBLISH_GROUP_ID = 'com.github.pavlospt'
     PUBLISH_ARTIFACT_ID = 'rxiapv3'
-    PUBLISH_VERSION = '1.2'
+    PUBLISH_VERSION = '1.2.1'
 }
 
 android {
@@ -14,8 +14,8 @@ android {
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 23
-        versionCode 3
-        versionName "1.2"
+        versionCode 4
+        versionName "1.2.1"
     }
 
 }
